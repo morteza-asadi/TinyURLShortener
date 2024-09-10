@@ -6,4 +6,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Extensions\" />
+    <Folder Include="Common\Middlewares\" />
+    <Folder Include="Features\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Persistence\" />
+    <Folder Include="Infrastructure\Persistence\Configurations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.8" />
+  </ItemGroup>
+
 </Project>
